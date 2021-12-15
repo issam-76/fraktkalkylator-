@@ -1,0 +1,48 @@
+[
+  {
+    "label": "Borås",
+    "value": "1"
+    
+  },
+  {
+    "label": "Göteborg",
+    "value": "2"
+    
+  },
+  {
+    "label": "Stockholm",
+    "value": "3"
+    
+  },
+  {
+    "label": "Jönköping",
+    "value": "4"
+   
+  },
+  {
+    "label": "Kinna",
+    "value": "5"
+   
+  },
+  {
+    "label": "Skene",
+    "value": "6"
+    
+  },
+  {
+    "label": "Varberg",
+    "value": "7"
+    
+  },
+  {
+    "label": "Malmö",
+    "value": "8"
+    
+  },
+  {
+    "label": "Helsingborg",
+    "value": "9"
+    
+  }
+  
+]

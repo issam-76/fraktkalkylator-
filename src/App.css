@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rowx {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    /* position: relative; */
+    /* display: block; */
+    padding: 0.9rem 1.25rem;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.rowh {
+    padding-bottom: 2rem !important;
+    padding-top: 2rem !important;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-right: -15px;
+    margin-left: -15px;
+    /* position: relative; */
+    /* display: block; */
+    padding: 0.9rem 1.25rem;
+}
+
+.rowg {
+    padding-bottom: 2rem !important;
+    padding-top: 2rem !important;
+   
+    border: 1px solid rgba(0,0,0,.125);
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-right: -15px;
+    margin-left: -15px;
+    /* position: relative; */
+    /* display: block; */
+    padding: 0.75rem 1.25rem;
+}
+h3 {
+    text-align: center;
+}
+
+.topping {
+    margin-top: 0.3rem;
+    vertical-align: text-bottom;
+}
+
+.result {
+    margin-top: 1rem;
+}
+
+.toppings-list,
+.total {
+    line-height: 0.5rem;
+    margin: 0 auto;
+}
+
+.toppings-list {
+    list-style: none;
+    padding: 0;
+}
+
+    .toppings-list li {
+        margin-bottom: 0.5rem;
+    }
+
+.toppings-list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toppings-list li:last-child {
+    border-top: 1px solid #ccc;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.toppings-list-item label {
+    vertical-align: middle;
+    margin-left: 0.2rem;
+    font-size: 1.1rem;
+}
+
+.total {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .toppings-list,
+    .total {
+        width: 90%;
+    }
+}
+
+.gap-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+}
