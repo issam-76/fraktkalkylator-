@@ -9,37 +9,20 @@ import typlist from "./typlist.json";
 
 
 
-const utf8 = require('utf8');
+ 
  
 
 export default function App() {
 
 
-    const Select = ({ options, onChange, value }) => (
-
-    
-    <select class="custom-select d-block w-100" onChange={onChange} value={value}>
-        <option   value="">
-            select an option
-        </option>
-        {options.map((option, i) => (
-            <option
-                key={option.value}
-                value={option.value}
-               
-            >
-                {option.label}
-            </option>
-        ))}
-    </select>
-);
+   
 
  
 
 
 
 
-    const [total, setTotal] = useState(0);
+ 
 
     var [selectedOptions, setSelectedOptions] = useState([]);
     var [selectedOptions1, setSelectedOptions1] = useState([]);
@@ -168,21 +151,9 @@ export default function App() {
 
 
 
-    const handleChange = (e) => {
+   
 
-
-        const val = e.target.value;
-
-       
-        Setbadge(val);
-
-
-        if (badge === "2") {
-            Setbadge("Ggg");
-        }
-
-    };
-
+ 
     return (
 
       
@@ -315,7 +286,7 @@ export default function App() {
                         <div class="col-md-6 mb-3">
                             <h4 class="d-flex justify-content-between align-items-center mb-3">
                                 <span class="text-muted">Resultat:</span>
-                                <span class="badge badge-secondary badge-pill">{elem5}</span>
+                                <span class="badge badge-secondary badge-pill">{elem4}</span>
                             </h4>
                             <ul class="list-group mb-3">
                                 <li class="list-group-item d-flex justify-content-between lh-condensed">
