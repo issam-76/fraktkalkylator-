@@ -31,7 +31,7 @@ export default function App() {
 
      const [resultatValue, setresultatValue] = useState("");
 
-    var [badge, Setbadge] = useState("");
+   
 
     const [firstSelectValue, setFirstSelectValue] = useState("");
     const [codeFrom, setcodeFrom] = useState("");
